@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #282a36;
+    color: wheat;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+header{
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    /*background-color: blue;*/
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+section form ul li {
+    list-style: none;
+}
+
+section form ul li label{
+    font-size: 22px;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+section button {
+    margin: 5px;
+    font-size: 20px;
+}
+
+table, th, td {
+    padding:  20px;
+    border: 2px solid whitesmoke;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size:x-large;
+}
+
+th{
+    background-color: rgba(0, 0, 0, 0.427);
+    color: yellow;
+    font: bold 20px arial,sans-serif;
+
+}
+
+button{
+    border-style:  outset ;
+    border: 2px solid rgb(121, 116, 116);
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    }
+
+    /*odd aplixado a todos elementos impares*/
+    table tr:nth-child(even) {
+    background-color: rgb(66, 60, 60);
+    }
+
+
+#vendas{
+    background-color: #00a24e;
+}
+
+#estorno{
+    background-color: #a2000d;
+}
+
+#export{
+    background-color: #007fa2;
+}
+
+.opcao {
+    cursor: grabbing;
+}
+
